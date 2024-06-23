@@ -1,0 +1,44 @@
+@media (max-width: 745px) {
+
+    /* header  */
+    header {
+        padding: 24px;
+    }
+    .burger{
+        display: block;
+    }
+    .header_nav,h3{
+        display: none;
+    }
+    /* section1 */
+    .section_1 {
+        padding: 24px;
+        height: 564px;
+        flex-wrap: wrap;
+    }
+
+
+    .section1_left_img {
+
+        width: 696px;
+        height: 320px;
+        top: 24px;
+        left: 24px;
+        gap: 0px;
+        border-radius: 32px 0px 0px 0px;
+        opacity: 0px;
+        
+    }
+
+    .section1_rigth_box {
+
+        /* display: flex;
+        align-items: first baseline; */
+       column-gap: 20px;
+        
+    }
+    h4{
+        row-gap: 20px;
+    }
+
+}

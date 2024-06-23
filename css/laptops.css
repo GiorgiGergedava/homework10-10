@@ -1,0 +1,56 @@
+@media (max-width: 1200px) {}
+
+
+
+
+@media (max-width: 1025px) {
+
+    /* header  */
+    header {
+        padding: 24px 32px;
+    }
+
+
+
+
+    /* section1 */
+
+    .section_1 {
+        padding: 32px;
+        height: 704px;
+        flex-wrap: wrap;
+    }
+
+
+    .section1_left_img {
+
+        width: 960px;
+        height: 480px;
+
+
+
+
+
+    }
+
+    .section1_rigth_box {
+
+        display: flex;
+        align-items: first baseline;
+        column-gap: 80px;
+        padding: 40px 32px;
+    }
+
+    /* section2 */
+    .section2 {
+        width: calc(960 / 1440 * 100%);
+        
+        padding: 80px 32px;
+    }
+    .section2_cards{
+        
+       
+        
+    }
+
+}
