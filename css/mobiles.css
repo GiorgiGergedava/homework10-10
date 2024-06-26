@@ -4,4 +4,38 @@
     header {
         padding: 24px 8px;
     }
+
+    .section_1 {
+        padding: 8px;
+    }
+
+
+    .section1_left_box {
+        height: 240px;
+    }
+
+
+    h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+    .section1_right_text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    /* footer */
+    footer {
+        padding-block: 32px;
+    }
+
+
+    .footer_section_rightside {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 32px;
+    }
+
 }
